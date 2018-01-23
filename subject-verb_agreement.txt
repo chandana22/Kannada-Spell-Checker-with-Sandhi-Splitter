@@ -1,0 +1,119 @@
+ಅವನು ಮನೆಯಲ್ಲಿ ಮಾಡಿದನು
+ಆಡುಗಪದವು avanu
+
+ಕ್ರಿಯಾಪದವು  maaDidanu
+
+ಇದು ಭೂತಕಾಲ ವಾಕ್ಯ  
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕಾಲ ಮತ್ತು ಲಿಂಗ ಸರಿಯಾಗಿದೆ!
+ಈ ವಾಕ್ಯ ಪ್ರಥಮ ಪುರುಷದಲ್ಲಿದೆ ಮತ್ತು ಇದರ ಕತೃ ಕ್ರಿಯಾಪದಗಳು ಹೊಂದಿಕೊಂಡಿವೆ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !
+------------------------------------------------------
+ಅವನು ಮನೆಯಲ್ಲಿ ಮಾಡಿದನು
+ಆಡುಗಪದವು avanu
+
+ಕ್ರಿಯಾಪದವು  maaDidanu
+
+ಇದು ಭೂತಕಾಲ ವಾಕ್ಯ  
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕಾಲ ಮತ್ತು ಲಿಂಗ ಸರಿಯಾಗಿದೆ!
+ಈ ವಾಕ್ಯ ಪ್ರಥಮ ಪುರುಷದಲ್ಲಿದೆ ಮತ್ತು ಇದರ ಕತೃ ಕ್ರಿಯಾಪದಗಳು ಹೊಂದಿಕೊಂಡಿವೆ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !
+------------------------------------------------------
+ಅವನು ಮನೆಯಲ್ಲಿ ಮಾಡಿದನು
+ಆಡುಗಪದವು avanu
+
+ಕ್ರಿಯಾಪದವು  maaDidanu
+
+ಇದು ಭೂತಕಾಲ ವಾಕ್ಯ  
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕಾಲ ಮತ್ತು ಲಿಂಗ ಸರಿಯಾಗಿದೆ!
+ಈ ವಾಕ್ಯ ಪ್ರಥಮ ಪುರುಷದಲ್ಲಿದೆ ಮತ್ತು ಇದರ ಕತೃ ಕ್ರಿಯಾಪದಗಳು ಹೊಂದಿಕೊಂಡಿವೆ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !
+------------------------------------------------------
+raamanu kaaDige hoodanu
+Noun is ರಾಮನು
+Verb is hoodanu
+
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodanu
+Noun is ರಾಮನು
+Verb is hoodanu
+
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodanu
+Noun is ರಾಮನು
+Verb is hoodanu
+
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodanu
+Noun is ರಾಮನು
+Verb is hoodanu
+
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodanu
+Noun is ರಾಮನು
+Verb is hoodanu
+
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodanu
+Noun is ರಾಮನು
+Verb is hoodanu
+
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+deevaalayagaLalli naanu suuryoodaya
+Pronoun is naanu
+
+Verb or Subject is missing in the sentence!! Please check again
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodanu
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕತೃ ಅಥವಾ ಕ್ರಿಯಾಪದ ಇಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿರಿ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !
+ರಾಮನು ಕಾಡಿಗೆ ಹೋದನು
+ಇದು ಭೂತಕಾಲ ವಾಕ್ಯ  
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕಾಲ ಮತ್ತು ಲಿಂಗ ಸರಿಯಾಗಿದೆ!
+ಈ ವಾಕ್ಯ ಪ್ರಥಮ ಪುರುಷದಲ್ಲಿದೆ ಮತ್ತು ಇದರ ಕತೃ ಕ್ರಿಯಾಪದಗಳು ಹೊಂದಿಕೊಂಡಿವೆ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !
+ರಾಮನು ಕಾಡಿಗೆ ಹೋದನು
+ಇದು ಭೂತಕಾಲ ವಾಕ್ಯ  
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕಾಲ ಮತ್ತು ಲಿಂಗ ಸರಿಯಾಗಿದೆ!
+ಈ ವಾಕ್ಯ ಪ್ರಥಮ ಪುರುಷದಲ್ಲಿದೆ ಮತ್ತು ಇದರ ಕತೃ ಕ್ರಿಯಾಪದಗಳು ಹೊಂದಿಕೊಂಡಿವೆ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !
+raamanu kaaDige hoodanu
+The sentence is in past tense
+The Gender and the Tense match!
+The person is P3 and the sentence has subject-verb agreement
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+raamanu kaaDige hoodaLu
+The sentence is in past tense
+Error!!Gender or Tense or Person dont match!!!!
+The output file subject-verb_agreement.txt is generated!
+------------------------------------------------------
+ರಾಮನು ಕಾಡಿಗೆ ಹೋದನು
+ಇದು ಭೂತಕಾಲ ವಾಕ್ಯ  
+ಈ ವಾಕ್ಯದಲ್ಲಿ ಕಾಲ ಮತ್ತು ಲಿಂಗ ಸರಿಯಾಗಿದೆ!
+ಈ ವಾಕ್ಯ ಪ್ರಥಮ ಪುರುಷದಲ್ಲಿದೆ ಮತ್ತು ಇದರ ಕತೃ ಕ್ರಿಯಾಪದಗಳು ಹೊಂದಿಕೊಂಡಿವೆ
+ಫಲಿತಾಂಶ  subject-verb_agreement.txt ಯಲ್ಲಿದೆ !

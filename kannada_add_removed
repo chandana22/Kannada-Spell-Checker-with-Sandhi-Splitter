@@ -1,0 +1,185 @@
+ಸಲಹೆಗಳು ಲಭ್ಯವಾಗಿಲ್ಲ!
+"ಸಲಹೆಗಳು","ನೀವು ಈ ಪದ ಬಯಸಿದಿರೇ? 
+"ನೂತನ ಪದ","ಬಯಸಿದ ಪದವಿರದೆ ಪದಕೋಶಕ್ಕೆ ನೂತನ ಪದ ಸೇರಿಸಲು ಬಯಸುವಿರೇ 
+"ಯಶಸ್ವಿ ಸೇರ್ಪಡೆ ", "ನೂತನ ಪದ ಸೇರ್ಪಡೆ ಸಫಲವಾಗಿದೆ
+
+"ನೂತನ ಪದ","ಸಲಹೆಗಳು ಲಭ್ಯವಾಗಿಲ್ಲ.\nಪದಕೋಶಕ್ಕೆ ನೂತನ ಪದ ಸೇರಿಸಲು ಬಯಸುವಿರೇ ?
+ಈ ಪದವು ಪದಕೋಶದಲ್ಲಿ ಲಭ್ಯವಿದೆ
+ಈ ಪದವು ಸಂದಿಪದವಲ್ಲದಿರಬಹುದು
+
+
+ಒಮ್ಮೆ ಕಡೆಗಣಿಸಿ ಸದಾ ಕಡೆಗಣಿಸಿ
+
+ದೋಷಯುಕ್ತ ಮೂಲ ಪದ 
+ನೀವು ಆಯ್ದ ಪದ
+sandi splitter kannada removed
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+    				if given_input.endswith(".txt"):
+    					self.called_file(given_input,2,3)
+    				else:
+    					found_print=sandhi_splitter_kan(given_input)
+    					self.textBrowser.setText(found_print[1])
+    					print("found prnt 2 is",found_print[2])
+    					if found_print[2]==1:
+    						dialog=Dialog()
+    						item, ok = QInputDialog.getItem(dialog, "ಸಲಹೆಗಳು","ನೀವು ಈ ಪದ ಬಯಸಿದಿರೇ? :", found_print[3], 0, False)
+    						if ok and item:
+    							print(item)
+    							#3 because kannada
+    							selected=pick_selected(item,3)
+    							print(selected)
+    							found_print=sandhi_splitter_kan(selected)
+    							self.textBrowser.setText(found_print[1])
+    						else:
+    							dialog=Dialog()
+    						#the user has clicked cancel for suggestions
+    							text, ok = QInputDialog.getText(dialog, "ನೂತನ ಪದ","ಬಯಸಿದ ಪದವಿರದೆ ಪದಕೋಶಕ್ಕೆ ನೂತನ ಪದ ಸೇರಿಸಲು ಬಯಸುವಿರೇ ? : ", QLineEdit.Normal,"")
+    							if ok and text != '':
+    								print(text)
+    								add_success=add_word(text,3)
+    								if add_success==1:
+    									QMessageBox.information(dialog,"ಯಶಸ್ವಿ ಸೇರ್ಪಡೆ ", "ನೂತನ ಪದ ಸೇರ್ಪಡೆ ಸಫಲವಾಗಿದೆ")
+		    			elif found_print[3]=='notthere' or found_print[3]=="":
+		    				#no suggestions are generated
+    						dialog=Dialog()
+    						self.textBrowser.setText("ಸಲಹೆಗಳು ಲಭ್ಯವಾಗಿಲ್ಲ!")
+    						text, ok = QInputDialog.getText(dialog, "ನೂತನ ಪದ","ಸಲಹೆಗಳು ಲಭ್ಯವಾಗಿಲ್ಲ.\nಪದಕೋಶಕ್ಕೆ ನೂತನ ಪದ ಸೇರಿಸಲು ಬಯಸುವಿರೇ ? : ", QLineEdit.Normal,"")
+    						if ok and text != '':
+    							print(text)
+    							add_success=add_word(text,3)
+    							# 1 coz stuffs in english adn 3 for kan
+    						if add_success==1:
+        						QMessageBox.information(dialog,"ಯಶಸ್ವಿ ಸೇರ್ಪಡೆ ", "ನೂತನ ಪದ ಸೇರ್ಪಡೆ ಸಫಲವಾಗಿದೆ")
+		
+		
+		
+from sandhi_splitter_driver_mod
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	global found_print
+	found_print=[]
+	found_print.append(0)
+	found_print.append("")
+	found_print.append("")
+	found_print.append("")
+	found_print.append("")
+	found_print.append("")
+	found_print[3]=0
+	found_print=sandhi_splitter(roman_word,3)
+	if found_print[0]==0:
+		found_print[1]="ಸಂಧಿ ಪದ ಛೇದ ಆಗದು! "
+		selected_suggestions=spell_sandhi_checker(roman_word,3)
+		if selected_suggestions[1]=='notthere':
+			#have to put a message box here
+			#add=input("ಪೂರ್ವ ಪದ / ಉ ತ್ತರ ಪದಗಳು ಪದಕೋ ಶದಲಿ ಸಿಗದು. ಪದಕೋ ಶಕೆ ನೂತನ ಪದ ಸೇರಿಸುವುದೇ ? y/n :\n")
+			#if add=='y':
+				#add_word()
+		#elif selected=='a':
+			#add_word(3)
+			print("not there")
+		else:
+			print("in main:")
+			print(selected_suggestions)
+			found_print.append(1)
+			found_print.append(selected_suggestions)
+			#found_print=sandhi_splitter(selected,3)
+	return found_print
+	#ans=input("\nಪುನಃ ಸಂಧಿ ಛೇಧಿಸಲು ಬಯ ಸು ವಿರಾ ?  y/n : ")
+	
+	
+	
+	
+removed from spell checker at ui forms:
+
+    				
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    			
+    			print("Spell checker selected")
+    			if self.input_language_combo.currentIndex()==1:
+    				if given_input.endswith(".txt"):
+    					self.called_file()
+    				
+    				else:
+    					to_chop_returned=pratyaya_chopper(given_input,3)
+    					correct_selected=spell_check_kan(given_input)
+    					if correct_selected[0]==1:
+    						self.textBrowser.setText(correct_selected[1])
+    					elif correct_selected[2]=="" or correct_selected=='notthere':
+    						#no suggestions are generated
+    						dialog=Dialog()
+    						self.textBrowser.setText("ಸಲಹೆಗಳು ಲಭ್ಯವಾಗಿಲ್ಲ!")
+    						text, ok = QInputDialog.getText(dialog, "ನೂತನ ಪದ","ಸಲಹೆಗಳು ಲಭ್ಯವಾಗಿಲ್ಲ.\nಪದಕೋಶಕ್ಕೆ ನೂತನ ಪದ ಸೇರಿಸಲು ಬಯಸುವಿರೇ ? : ", QLineEdit.Normal,"")
+    						if ok and text != '':
+    							print(text)
+    							add_success=add_word(text,3)
+    							# 1 coz stuffs in english adn 3 for kan
+    						if add_success==1:
+        						QMessageBox.information(dialog,"ಯಶಸ್ವಿ ಸೇರ್ಪಡೆ ", "ನೂತನ ಪದ ಸೇರ್ಪಡೆ ಸಫಲವಾಗಿದೆ")
+    						
+    					else:
+    						dialog=Dialog()
+    						item, ok = QInputDialog.getItem(dialog, "ಸಲಹೆಗಳು","ನೀವು ಈ ಪದ ಬಯಸಿದಿರೇ? :", correct_selected[2], 0, False)
+    						if ok and item:
+    							print(item)
+    							#3 because kannada
+    							selected=pick_selected(item,3)
+    							print(selected)
+    							self.textBrowser.setText("ನೀವು ಆಯ್ದ ಸರಿಯಾದ ಪದ  : "+selected)
+    						else:
+    						#cancel is selected . no word is selected from suggestions
+    							dialog=Dialog()
+    							text, ok = QInputDialog.getText(dialog, "ನೂತನ ಪದ","ಬಯಸಿದ ಪದವಿರದೆ ಪದಕೋಶಕ್ಕೆ ನೂತನ ಪದ ಸೇರಿಸಲು ಬಯಸುವಿರೇ ?", QLineEdit.Normal,"")
+    							if ok and text != '':
+    								print(text)
+    								add_success=add_word(text,3)
+    							if add_success==1:
+    								QMessageBox.information(dialog,"ಯಶಸ್ವಿ ಸೇರ್ಪಡೆ ", "ನೂತನ ಪದ ಸೇರ್ಪಡೆ ಸಫಲವಾಗಿದೆ")
+ 
